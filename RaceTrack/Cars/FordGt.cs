@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RaceTrack.RaceTrack.Cars
 {
     public class FordGt : RaceCar
-    { 
+    {
         public FordGt()
         {
             Name = "Ford GT";

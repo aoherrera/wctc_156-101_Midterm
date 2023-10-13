@@ -20,9 +20,14 @@ namespace RaceTrack.RaceTrack.Cars
             Console.WriteLine($"The {Name} roars to life, albeit quietly.");
         }
 
+        public override void StopEngine()
+        {
+            Console.WriteLine($"The {Name} purrs to a quiet end.");
+        }
+
         public override void Brake()
         {
-            Console.WriteLine($"The {Name} ends in position {Position}, arriving later than the rest.");
+            Console.WriteLine($"The {Name} ends in position {Position}, though it might get stolen soon.");
         }
     }
 }
